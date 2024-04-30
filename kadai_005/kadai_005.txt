@@ -1,0 +1,17 @@
+
+rsakai@H46K4PY25J GitHub_test % mkdir git_challenge
+rsakai@H46K4PY25J GitHub_test % cd git_challenge
+rsakai@H46K4PY25J git_challenge % touch hello_world.txt
+rsakai@H46K4PY25J git_challenge % git add hello_world.txt
+rsakai@H46K4PY25J git_challenge % git commit -m"hello_world.txtを追加"
+[main (root-commit) 4c5c320] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+rsakai@H46K4PY25J git_challenge % echo "こんにちは、世界！" >> hello_world.txt    
+rsakai@H46K4PY25J git_challenge % git add hello_world.txt
+rsakai@H46K4PY25J git_challenge % git commit -m"日本語訳を追記"
+[main 47137d5] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+rsakai@H46K4PY25J git_challenge % git log --oneline
+47137d5 (HEAD -> main) 日本語訳を追記
+4c5c320 hello_world.txtを追加
